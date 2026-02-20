@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payoo | Log in</title>
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
 
     <!-- Daisy UI and Tailwind -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
@@ -29,7 +30,31 @@
 
 <body>
 
-    
+    <div class="logo min-h-screen max-w-md bg-base-200 mx-auto">
+        
+        <div class="w-[200px] mx-auto pt-50">
+            <img src="./assets/Logo-full.png" alt="">
+        </div>
+
+        <div class="login-card card bg-base-100 w-full max-w-sm mx-auto mt-10 shrink-0 shadow rounded-2xl">
+            <div class="card-body">
+                <fieldset class="fieldset">
+                    <label class="label text-neutral font-bold">Mobile Number</label>
+                    <input type="text" class="input bg-base-200 rounded-4xl py-5" placeholder="Enter your number" />
+
+                    <br>
+
+                    <label class="label text-neutral font-bold">4 Digit Pin</label>
+                    <input type="password" class="input bg-base-200 rounded-4xl py-5" placeholder="Password" />
+
+                    <button class="btn btn-primary mt-4 rounded-full py-5">Login</button>
+                </fieldset>
+            </div>
+        </div>
+
+    </div>
+
+
 
 </body>
 
